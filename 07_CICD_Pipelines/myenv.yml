@@ -21,11 +21,9 @@ dependencies:
   - inference-schema
   - inference-schema[numpy-support]
   - azureml-monitoring
+  - azureml.datacollector==0.1.0a13
+  - azureml-model-management-sdk==1.0.1b6.post1
 
 channels:
 - anaconda
 - conda-forge
-
- #data collection
-   - azureml-model-management-sdk==1.0.1b6.post1
-   - azureml.datacollector==0.1.0a13
