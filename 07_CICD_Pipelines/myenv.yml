@@ -25,3 +25,7 @@ dependencies:
 channels:
 - anaconda
 - conda-forge
+
+ #data collection
+   - azureml-model-management-sdk==1.0.1b6.post1
+   - azureml.datacollector==0.1.0a13
